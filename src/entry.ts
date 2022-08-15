@@ -14,7 +14,7 @@ export {
 export default {
     install(app: App) {
         app.component(CButton.name!, CButton);
-        app.component(SFCButton.name, SFCButton);
+        app.component(SFCButton.name!, SFCButton);
         app.component(JSXButton.name!, JSXButton);
     }
 }

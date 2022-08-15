@@ -1,8 +1,8 @@
 import { createApp } from 'vue'
+import App from './App.vue'
 
-import JSXButton from './JSXButton'
-
-createApp(JSXButton).mount('#app')
+createApp(App)
+    .mount('#app')
 
 
 
