@@ -1,8 +1,8 @@
 import { createApp } from 'vue'
 
-import CButton from './button/index'
+import JSXButton from './JSXButton'
 
-createApp(CButton).mount('#app')
+createApp(JSXButton).mount('#app')
 
 
 
