@@ -4,7 +4,6 @@ import vuejsx from '@vitejs/plugin-vue-jsx'
 import unocss from './src/config/unocss'
 
 
-
 export default defineConfig({
     plugins: [
         vue(),
@@ -26,10 +25,11 @@ export default defineConfig({
             }
         },
         minify: false,
+        cssCodeSplit: true,
         lib: {
             entry: './src/entry.ts',
             name: 'SmartUI',
-            fileName: (format) => `smart-ui.${format}.js`
+            fileName: (format) => `smart-ui.${format}.js`,
         }
     }
 })

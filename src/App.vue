@@ -27,12 +27,15 @@
         <CButton color="blue" round plain icon="search"></CButton>
         <CButton color="green" round plain icon="edit"></CButton>
         <CButton color="red" round plain icon="delete"></CButton>
+        <CButton color="red" round plain>custom</CButton>
     </div>
 
 </template>
 
 <script lang="ts" setup>
 import CButton from './button/index';
+
+const color = 'orange'
 
 </script>
 
