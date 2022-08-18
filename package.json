@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "docs:dev": "vitepress dev docs"
+    "docs:dev": "vitepress dev docs",
+    "test": "vitest"
   },
   "keywords": [],
   "author": "",
@@ -14,8 +15,11 @@
   "devDependencies": {
     "@iconify-json/carbon": "^1.1.7",
     "@vitejs/plugin-vue-jsx": "^2.0.0",
+    "@vue/test-utils": "^2.0.2",
+    "happy-dom": "^6.0.4",
     "unocss": "^0.45.6",
-    "vite": "^3.0.7"
+    "vite": "^3.0.7",
+    "vitest": "^0.21.1"
   },
   "dependencies": {
     "@unocss/runtime": "^0.45.7",

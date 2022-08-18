@@ -32,8 +32,6 @@
 </template>
 
 <script lang="ts" setup>
-// import '../dist/assets/entry.2022ea27.css';
-// import SmartyUI, { CButton, SFCButton, JSXButton } from '../dist/smart-ui.es'
 import CButton from './button/index';
 
 const color = 'orange'
